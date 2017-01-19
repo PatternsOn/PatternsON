@@ -1,0 +1,16 @@
+body {
+  background-color: #404040;
+}
+
+p, h1, h2, a {
+  font-family: verdana;
+  color: #f6f6f6;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+}
