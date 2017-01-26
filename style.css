@@ -1,13 +1,17 @@
 body{
   margin: 0px;
+  color: white;
 }
 h1{
-  color: black!important;
+  color: white !important;
   font-size: 38px !important;
 }
-
+p{
+  color: white !important;
+}
 .background-image {
   position: fixed;
+  background-repeat: no-repeat;
   left: 0;
   right: 0;
   z-index: -50;
@@ -29,21 +33,74 @@ h1{
   padding-left: 10px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-#top_menu{
-  margin: 0px;
-}
 ul{
   margin: 0px;
   margin-bottom: 0px !important;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 li{
-  margin:0px;
-  padding: 4px;
+  margin:1px;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white !important;
+  font-weight: bold !important;
+  width: 80% !important;
+}
+li:hover{
+  margin:1px;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: hotpink !important;
+  font-weight: bold !important;
+  width: 100% !important;
+}
+a{
+  color: white !important;
+  text-decoration: none;
+}
+a:hover{
+  color: hotpink !important;
+  text-decoration: none !important;
 }
 div{
   border: 4px solid yellow;
 }
+.insidediv{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin-right: 100px;
+}
+.distance{
+  height: 100px;
+  background-color: black;
+}
+.lidistance{
+  width:100% !important;
+}
+/* Custom, iPhone Retina */
+   @media only screen and (min-width : 320px) {
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (min-width : 480px) {
+
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (min-width : 768px) {
+
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (min-width : 992px) {
+
+   }
+
+   /* Large Devices, Wide Screens */
+   @media only screen and (min-width : 1200px) {
+
+   }
