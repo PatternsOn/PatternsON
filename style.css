@@ -83,8 +83,8 @@ div{
   margin-right: 100px;
 }
 .distance{
-  height: 100px;
-  background-color: black;
+  height: 80px;
+  /*background-color: black;*/
 }
 .lidistance{
   width:100% !important;
