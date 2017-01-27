@@ -23,3 +23,11 @@
   background-color: black;
   z-index: -51;
 }
+
+header{
+  background-color: black;
+  opacity: .5;
+  height: 100px;
+  width: 100%;
+  margin-left: 200px;
+}
