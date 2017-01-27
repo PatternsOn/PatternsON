@@ -263,12 +263,11 @@ p{
   #wrapper_top{
     display: flex;
     flex-direction: row;
-
   }
   #top_header{
     background-image:  url("../img/logosmall.png");
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-size: 184px 50px;
     background-position: 5% 1%;
     height: 60px;
@@ -282,7 +281,6 @@ p{
   }
   #main_wrapper{
     display: flex;
-    position: fixed;
     margin-top: 50px;
     width: 100%;
   }
