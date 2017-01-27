@@ -226,24 +226,24 @@ p{
     flex-direction: row;
   }
   #top_header{
-    height: 110px;
+    background-image:  url("../img/logosmall.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 276px 75px;
+    background-position: 95% 1%;
+    position: fixed;
+    height: 90px;
     width: 100%;
     margin: 0px;
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-bottom: 5px;
     background-color: rgba(0, 0, 0, 0.5);
   }
   #triangle-topright {
   	width: 0;
   	height: 0;
     margin-left: 50px;
-  	border-top: 125px solid rgba(0, 0, 0, 0.5);
-  	border-left: 200px solid transparent;
+  	border-top: 90px solid rgba(0, 0, 0, 0.5);
+  	border-left: 133px solid transparent;
   }
-
-
-
 
   #wrapper_bottom{
     display: flex;
