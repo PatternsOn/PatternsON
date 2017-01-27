@@ -113,13 +113,13 @@ p{
     font-weight: bold;
     height: 50px;
     padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.5);;
+    background-color: rgba(0, 0, 0, 0.5);
 
   }
   #triangle-bottomleft{
   	width: 0;
   	height: 0;
-  	border-bottom: 50px solid rgba(0, 0, 0, 0.5);;
+  	border-bottom: 50px solid rgba(0, 0, 0, 0.5);
   	border-right: 200px solid transparent;
   }
 }
@@ -205,13 +205,13 @@ p{
     font-weight: bold;
     height: 50px;
     padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.5);;
+    background-color: rgba(0, 0, 0, 0.5);
 
   }
   #triangle-bottomleft{
   	width: 0;
   	height: 0;
-  	border-bottom: 50px solid rgba(0, 0, 0, 0.5);;
+  	border-bottom: 50px solid rgba(0, 0, 0, 0.5);
   	border-right: 200px solid transparent;
   }
 }
@@ -231,7 +231,6 @@ p{
     background-attachment: fixed;
     background-size: 276px 75px;
     background-position: 95% 1%;
-    position: fixed;
     height: 90px;
     width: 100%;
     margin: 0px;
@@ -246,25 +245,13 @@ p{
   }
 
   #wrapper_bottom{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    position: absolute;
-    bottom: 0px;
+    display: none;
   }
   footer{
-    color: black;
-    font-weight: bold;
-    height: 50px;
-    padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.5);;
-
+    display: none;
   }
   #triangle-bottomleft{
-  	width: 0;
-  	height: 0;
-  	border-bottom: 50px solid rgba(0, 0, 0, 0.5);;
-  	border-right: 200px solid transparent;
+    display: none;
   }
 }
 
@@ -276,26 +263,26 @@ p{
   #wrapper_top{
     display: flex;
     flex-direction: row;
+
   }
   #top_header{
     background-image:  url("../img/logosmall.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: 184px 50px;
-    background-position: 5% 2%;
-    position: fixed;
+    background-position: 5% 1%;
     height: 60px;
     width: 100%;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
   }
   #triangle-topright {
     display: none;
   }
-
   #main_wrapper{
     display: flex;
-
+    position: fixed;
     margin-top: 50px;
     width: 100%;
   }
