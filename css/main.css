@@ -44,10 +44,10 @@ p{
     display: flex;
     flex-direction: row;
   }
-  #top_header{
+  #logo{
     background-image:  url("../img/logosmall.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: 369px 100px;
     background-position: 95% 1%;
     height: 125px;
@@ -67,6 +67,7 @@ p{
     display: flex;
     margin-top: 50px;
     width: 100%;
+    opacity: 0;
     /*border: 2px solid yellow;*/
   }
   #desktop_menu{
@@ -138,7 +139,7 @@ p{
     display: flex;
     flex-direction: row;
   }
-  #top_header{
+  #logo{
     background-image:  url("../img/logosmall.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -230,7 +231,7 @@ p{
     display: flex;
     flex-direction: row;
   }
-  #top_header{
+  #logo{
     background-image:  url("../img/logosmall.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -268,7 +269,7 @@ p{
   #wrapper_top{
     display: flex;
   }
-  #top_header{
+  #logo{
     background-image:  url("../img/logosmall.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
