@@ -58,6 +58,48 @@ p{
   	border-left: 200px solid transparent;
   }
 
+  #main_wrapper{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    border: 2px solid yellow;
+  }
+  #desktop_menu{
+    width: 40%;
+    min-width: 400px;
+    margin-right: 20px;
+  }
+  #biography{
+    width: 50%;
+    min-width: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .menulinks{
+    width: 80%;
+  }
+  ul{
+    margin: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  li{
+    margin:1px;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    /*width: 80% !important;*/
+  }
+  li:hover{
+    color: hotpink;
+  }
+
 
   #wrapper_bottom{
     display: flex;
@@ -108,6 +150,46 @@ p{
     margin-left: 50px;
   	border-top: 125px solid rgba(0, 0, 0, 0.5);
   	border-left: 200px solid transparent;
+  }
+
+  #main_wrapper{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    border: 2px solid yellow;
+  }
+  #desktop_menu{
+    width: 40%;
+    margin-right: 20px;
+  }
+  #biography{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .menulinks{
+    width: 80%;
+  }
+  ul{
+    margin: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  li{
+    margin:1px;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    /*width: 80% !important;*/
+  }
+  li:hover{
+    color: hotpink;
   }
 
 
@@ -161,6 +243,8 @@ p{
   }
 
 
+
+
   #wrapper_bottom{
     display: flex;
     flex-direction: row;
@@ -206,35 +290,44 @@ p{
   }
   #triangle-topright {
     display: none;
-  	width: 0;
-  	height: 0;
-    margin-left: 50px;
-  	border-top: 125px solid rgba(0, 0, 0, 0.5);
-  	border-left: 200px solid transparent;
   }
 
+  #main_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 90%;
+    border: 2px solid yellow;
+  }
+  #desktop_menu{
+    display: none;
+  }
+  #biography{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  .menulinks{
+    width: 80%;
+  }
+  ul{
+    display: none;
+
+  }
+  li{
+    display: none;
+  }
+  li:hover{
+    color: hotpink;
+  }
 
   #wrapper_bottom{
     display: none;
-    flex-direction: row;
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
   }
   footer{
     display: none;
-    color: black;
-    font-weight: bold;
-    height: 50px;
-    padding-left: 10px;
-    background-color: rgba(0, 0, 0, 0.5);;
-
   }
   #triangle-bottomleft{
     display: none;
-  	width: 0;
-  	height: 0;
-  	border-bottom: 50px solid rgba(0, 0, 0, 0.5);;
-  	border-right: 200px solid transparent;
   }
 }

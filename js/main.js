@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 
  $(".menulinks").mouseenter(function(){
-   $(this).animate({width: '95%'}, 1000);
+   $(this).animate({width: '90%'}, 1000);
    $(this).css("background-color", 'rgba(0, 0, 0, 0.5)');
    $(this).css('color', 'hotpink');
 
