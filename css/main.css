@@ -63,7 +63,6 @@ footer{
   color: black;
   font-weight: bold;
   height: 50px;
-  margin-left: 0px;
   padding-left: 10px;
   background-color: rgba(0, 0, 0, 0.5);;
 
@@ -71,7 +70,7 @@ footer{
 #triangle-bottomleft{
 	width: 0;
 	height: 0;
-	border-bottom: 51px solid rgba(0, 0, 0, 0.5);;
+	border-bottom: 50px solid rgba(0, 0, 0, 0.5);;
 	border-right: 200px solid transparent;
 }
 
