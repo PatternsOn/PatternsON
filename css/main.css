@@ -62,7 +62,7 @@ p{
     display: flex;
     margin-top: 50px;
     width: 100%;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
   }
   #desktop_menu{
     width: 40%;
@@ -156,7 +156,7 @@ p{
     display: flex;
     margin-top: 50px;
     width: 100%;
-    border: 2px solid yellow;
+    /*border: 2px solid yellow;*/
   }
   #desktop_menu{
     width: 40%;
@@ -294,15 +294,16 @@ p{
 
   #main_wrapper{
     display: flex;
-    align-items: center;
+
     margin-top: 50px;
-    width: 90%;
-    border: 2px solid yellow;
+    width: 100%;
+    /*border: 2px solid yellow;*/
   }
   #desktop_menu{
     display: none;
   }
   #biography{
+    justify-content: space-around;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
