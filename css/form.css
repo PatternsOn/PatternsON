@@ -1,0 +1,19 @@
+textarea{
+  background-color: yellow;
+}
+input{
+  background-color: yellow
+
+}
+.textfield{
+  border-radius: 3px;
+  height: 20px;
+  width: 100px;
+  margin: 5px;
+}
+.messagebox{
+  border-radius: 3px;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}

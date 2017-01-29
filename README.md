@@ -1,2 +1,0 @@
-# PatternsON
-Personal web portfolio

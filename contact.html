@@ -6,9 +6,7 @@
      <title>John H</title>
      <meta name="description" content="DESCRIPTION">
     <link rel="stylesheet" href="style.css">
-  
-
-
+    <link rel="stylesheet" href="css/form.css">
 
      <!--[if lt IE 9]>
        <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -34,8 +32,20 @@
     </nav>
 
     <article class="rightcontent">
-      <p><SPAN STYLE="color: hotpink; font-size: 20px; font-weight:bold">News</span></p>
-        <a class="twitter-timeline" data-width="300" data-height="400" data-theme="dark" data-link-color="#ff5eab" href="https://twitter.com/djjohnh">Tweets by djjohnh</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p><SPAN STYLE="color: hotpink; font-size: 20px; font-weight:bold">Contact</span></p>
+
+
+  <form class="cf">
+    <div class="half left cf">
+      <input class="textfield" type="text" id="input-name" placeholder="Name">
+      <input class="textfield" type="email" id="input-email" placeholder="Email address">
+      <input class="textfield" type="text" id="input-subject" placeholder="Subject">
+    </div>
+    <div class="half right cf">
+      <textarea class="messagebox" name="message" type="text" id="input-message" placeholder="Message"></textarea>
+    </div>
+    <input type="submit" value="Submit" id="input-submit">
+  </form>
     </article>
 
 
@@ -44,6 +54,7 @@
 
 
     <footer></footer>
+
  </body>
 
  </html>
