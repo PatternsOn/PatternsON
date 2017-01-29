@@ -29,6 +29,7 @@ input{
 .submitbutton{
   color: white;
   border: 0px;
+  border: none;
   border-radius: 3px;
   margin-left: 5px;
   font-size: 14px;
