@@ -151,5 +151,14 @@ li{
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-
+}
+.timeline .stream {
+overflow: hidden !important;
+position: relative !important;
+width: 100% !important;
+}
+.twitter-timeline{
+  overflow: hidden !important;
+  position: relative !important;
+  width: 100% !important;
 }
