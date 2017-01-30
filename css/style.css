@@ -59,11 +59,24 @@ li{
   float:right;
 }
 .menu{
+  /*display: none;
+  margin: 0px;
+  margin-left: 50px;
+  box-sizing: border-box;*/
+  width:40%;
+
+  position: absolute;
+  position: fixed;
+  margin-left: 50px;
+  margin-top: 100px;
+
+}
+.leftdistance{
   margin: 0px;
   margin-left: 50px;
   box-sizing: border-box;
-  /*background-color: yellow;*/
   width:40%;
+  height: 300px;
 }
 .read{
   margin: 2px;
@@ -160,7 +173,7 @@ li{
   margin-bottom: 100px;
 }
 .main_wrapper{
-  margin-top: 100px;
+  margin-top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
