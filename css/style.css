@@ -2,25 +2,28 @@ body{
   margin:0;
   padding: 0;
   background-color: black;
-  background-image: url("desktop.jpg");
+  background-image: url("../img/desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   font-family: verdana;
 }
 p{
   color: white;
+  margin: 0px;
+  padding: 0px;
 }
 h1{
   margin:0;
 }
-a:link{
+a:link{;
   text-decoration: none;
 }
 a:visited{
   text-decoration: none;
 }
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:active {
@@ -154,6 +157,7 @@ li{
   width: 50%;
   border-radius: 3px;
   margin-right: 50px;
+  margin-bottom: 100px;
 }
 .main_wrapper{
   margin-top: 100px;
@@ -174,4 +178,14 @@ width: 80% !important;
 }
 textarea {
     overflow: hidden !important;
+}
+footer{
+  position:fixed;
+  color: white;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  padding: 5px;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
