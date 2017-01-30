@@ -38,8 +38,11 @@ input{
   text-decoration: none;
 }
 .submitbutton:active{
+  color: #000000;
+  background-color: #27ffea;
+}
+.submitbutton:hover{
   color: #27ffea;
-
 }
 .contactwrapper{
   display: flex;
