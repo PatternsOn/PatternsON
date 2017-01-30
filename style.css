@@ -165,10 +165,10 @@ li{
 .timeline .stream {
 overflow: hidden !important;
 position: relative !important;
-width: 100% !important;
+width: 80% !important;
 }
 .twitter-timeline{
   overflow: hidden !important;
   position: relative !important;
-  width: 100% !important;
+  width: 80% !important;
 }
