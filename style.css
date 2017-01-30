@@ -71,6 +71,8 @@ li{
   color: white;
   font-weight: bold;
   border-radius: 3px;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s,;
 }
 .read:hover{
   color: hotpink;
@@ -86,6 +88,8 @@ li{
   color: white;
   font-weight: bold;
   border-radius: 3px;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s,;
 }
 .listen:hover{
   color: hotpink;
@@ -101,6 +105,8 @@ li{
   color: white;
   font-weight: bold;
   border-radius: 3px;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s,;
 }
 .see:hover{
   color: hotpink;
@@ -116,6 +122,8 @@ li{
   color: white;
   font-weight: bold;
   border-radius: 3px;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s,;
 }
 .buy:hover{
   color: hotpink;
@@ -131,6 +139,8 @@ li{
   color: white;
   font-weight: bold;
   border-radius: 3px;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s,;
 }
 .contact:hover{
   color: hotpink;
