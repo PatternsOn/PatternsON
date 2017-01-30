@@ -38,7 +38,7 @@ li{
 .top_header{
   display: flex;
   flex-direction: row;
-  margin-top: 0px;
+  top: 0px;
   margin-left: 0px;
   width: 100%;
   position: absolute;
@@ -177,7 +177,7 @@ li{
   margin-bottom: 100px;
 }
 .main_wrapper{
-  margin-top: 80px;
+  margin-top: 180px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
