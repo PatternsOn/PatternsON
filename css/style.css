@@ -170,7 +170,7 @@ li{
 
 .rightcontent{
   display; flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   width: 50%;
@@ -186,9 +186,9 @@ li{
   width: 100%;
 }
 .timeline .stream {
-overflow: hidden !important;
-position: relative !important;
-width: 80% !important;
+  overflow: hidden !important;
+  position: relative !important;
+  width: 80% !important;
 }
 .twitter-timeline{
   overflow: hidden !important;
@@ -196,7 +196,7 @@ width: 80% !important;
   width: 80% !important;
 }
 textarea {
-    overflow: hidden !important;
+  overflow: hidden !important;
 }
 footer{
   position:fixed;
