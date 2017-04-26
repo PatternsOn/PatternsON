@@ -16,5 +16,8 @@
     color: black;
 }
 .space{
-    min-height: 300px;
+    min-height: 150px;
+}
+.pink {
+    font-size: 20px;
 }
