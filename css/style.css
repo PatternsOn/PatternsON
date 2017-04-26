@@ -10,10 +10,10 @@
     color: #ff00be;
 }
 .navbar-inverse .navbar-brand {
-    color: black;
+    color: white;
 }
 .navbar-inverse .navbar-nav>li>a {
-    color: black;
+    color: white;
 }
 .space{
     min-height: 150px;
