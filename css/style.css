@@ -15,9 +15,33 @@
 .navbar-inverse .navbar-nav>li>a {
     color: white;
 }
+.navbar-inverse .navbar-nav>li>a:hover {
+    opacity: 0.5;
+}
+.navbar-inverse .navbar-brand:hover {
+    opacity: 0.5;
+}
 .space{
     min-height: 150px;
 }
 .pink {
     font-size: 20px;
+}
+.carousel-caption {
+    background-color: white;
+    border-radius: 40px;
+    opacity: .9;
+    padding: 20px;
+    padding-top: 0;
+}
+.carousel-indicators li {
+    background-color: #ff00be;
+    border: #ff00be;
+}
+.carousel-indicators .active {
+    background-color: yellow;
+}
+.bildspel{
+    width: 200px;
+    height: 200px;
 }
