@@ -1,3 +1,11 @@
+A web site scetch I did in my ground course in html and css. 
+It´ an artist page for my friend John. 
+
+https://patternson.github.io
+
+
+
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Full Slider](http://startbootstrap.com/template-overviews/full-slider/)
 
 [Full Slider](http://startbootstrap.com/template-overviews/full-slider/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features a full page image slider header with captions.
