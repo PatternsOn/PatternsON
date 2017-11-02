@@ -1,4 +1,4 @@
-A web site scetch I did in my ground course in html and css. 
+A web site sketch I did in my ground course in html and css. 
 It´ an artist page for my friend John. 
 
 https://patternson.github.io
